@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DANHSACHKHOA[
+	<!ELEMENT DANHSACHKHOA (KHOA+)>
+	<!ELEMENT KHOA (SINHVIEN+)>
+	<!ATTLIST KHOA
+	MaKH CDATA #REQUIRED
+	TenKH CDATA #REQUIRED
+	>
+	<!ELEMENT SINHVIEN EMPTY>
+	<!ATTLIST SINHVIEN
+	MaSV CDATA #REQUIRED
+	HoSV CDATA #REQUIRED
+	TenSV CDATA #REQUIRED
+	Phai CDATA #REQUIRED
+	NgaySinh CDATA #REQUIRED
+	NoiSinh CDATA #REQUIRED
+	HocBong CDATA #REQUIRED
+	>
+]>
+<DANHSACHKHOA>
+  <KHOA MaKH="TH" TenKH="Tin Học">
+    <SINHVIEN MaSV="A01" HoSV="Lê Trung" TenSV="Thực" Phai="true" NgaySinh="10/12/1999" NoiSinh="Tây Ninh" HocBong="150000" />
+    <SINHVIEN MaSV="A02" HoSV="Lê Trung" TenSV="Hiếu" Phai="true" NgaySinh="1/12/1998" NoiSinh="Hà Nội" HocBong="160000" />
+    <SINHVIEN MaSV="A03" HoSV="Lê Thị" TenSV="Nga" Phai="false" NgaySinh="12/10/1999" NoiSinh="TP.HCM" HocBong="170000" />
+  </KHOA>
+  <KHOA MaKH="AV" TenKH="Anh Văn">
+    <SINHVIEN MaSV="B01" HoSV="Lê Trung" TenSV="Nghĩa" Phai="true" NgaySinh="10/12/1999" NoiSinh="Tây Ninh" HocBong="180000" />
+    <SINHVIEN MaSV="B02" HoSV="Lê Trung" TenSV="Kiên" Phai="true" NgaySinh="1/10/1998" NoiSinh="Hà Nội" HocBong="190000" />
+    <SINHVIEN MaSV="B03" HoSV="Lê Thị" TenSV="Đào" Phai="false" NgaySinh="12/4/1997" NoiSinh="TP.HCM" HocBong="200000" />
+  </KHOA>
+  <KHOA MaKH="VL" TenKH="Vật Lý">
+    <SINHVIEN MaSV="C01" HoSV="Lê Trung" TenSV="Tín" Phai="true" NgaySinh="10/12/1999" NoiSinh="Tây Ninh" HocBong="100000" />
+  </KHOA>
+</DANHSACHKHOA>

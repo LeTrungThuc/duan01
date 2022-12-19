@@ -1,0 +1,10 @@
+D:\ONTHI_XML\ONTHI_XML\bin\Debug\ONTHI_XML.exe.config
+D:\ONTHI_XML\ONTHI_XML\bin\Debug\ONTHI_XML.exe
+D:\ONTHI_XML\ONTHI_XML\bin\Debug\ONTHI_XML.pdb
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.csproj.AssemblyReference.cache
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.Form1.resources
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.Properties.Resources.resources
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.csproj.GenerateResource.cache
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.csproj.CoreCompileInputs.cache
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.exe
+D:\ONTHI_XML\ONTHI_XML\obj\Debug\ONTHI_XML.pdb
